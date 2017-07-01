@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">D_test</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="hot">热点</string>
+	<string name="recreation">娱乐</string>
+	<string name="collect">收藏</string>
+</resources>
