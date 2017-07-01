@@ -60,7 +60,6 @@ public class CollectFragment extends Fragment implements OnItemClickListener {
 			String title = cursor.getString(cursor.getColumnIndex("title"));
 			String digest = cursor.getString(cursor.getColumnIndex("digest"));
 			String imgsrc = cursor.getString(cursor.getColumnIndex("imgsrc"));
-			
 			total.add(new News(title, digest, imgsrc));
 			
 		}
@@ -73,10 +72,10 @@ public class CollectFragment extends Fragment implements OnItemClickListener {
 		
 		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 		builder.setIcon(R.drawable.ic_launcher);
-		builder.setTitle("ÌáÊ¾");
-		builder.setMessage("ÊÇ·ñÈ·ÈÏÉ¾³ý?");
-		builder.setNegativeButton("È¡Ïû", null);
-		builder.setPositiveButton("È·¶¨", new OnClickListener() {
+		builder.setTitle("ï¿½ï¿½Ê¾");
+		builder.setMessage("ï¿½Ç·ï¿½È·ï¿½ï¿½É¾ï¿½ï¿½?");
+		builder.setNegativeButton("È¡ï¿½ï¿½", null);
+		builder.setPositiveButton("È·ï¿½ï¿½", new OnClickListener() {
 			
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
